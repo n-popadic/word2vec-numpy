@@ -101,4 +101,3 @@ if __name__ == "__main__":
     
     W = normalize_embeddings(model.W)
     print(most_similar("king", W, word2idx, idx2word))
-    

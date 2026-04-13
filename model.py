@@ -15,7 +15,7 @@ class SkipGramNS:
         
     def forward_backward(self, centers, positives, negatives):
     
-        B = centers.shape[0]            # B   batch size, how many words we train at once, was B
+        B = centers.shape[0]            # B   batch size, how many words we train at once
                                         # K   Number of negative samples
                                         # N   Number of  hidden layer dim
         #FETCH EMBEDDINGS

@@ -23,9 +23,12 @@ pip install numpy
 
 ## Quick start
 
-1. Prepare a text corpus (e.g. `data/text8`).
-2. Edit hyperparameters in `train.py` if desired (embedding size, window, negative samples, batch size, learning rate, epochs).
-3. Run training:
+
+To run this code, please follow these steps:
+1. Download the dataset from [text8 dataset (Matt Mahoney)](http://mattmahoney.net/dc/textdata.html)
+2. Create a folder named `data/` in the root directory of this project.
+3. Edit hyperparameters in `train.py` if desired (embedding size, window, negative samples, batch size, learning rate, epochs).
+4. Run training:
 
 ```powershell
 python train.py

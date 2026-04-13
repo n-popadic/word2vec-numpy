@@ -107,7 +107,3 @@ class Word2VecDataset:
             np.array(positives),
             np.array(negatives)
         )
-        
-        
-
-        

@@ -52,3 +52,6 @@ logs/
 # Misc
 *.sqlite3
 .cache/
+
+#Data files
+data/
