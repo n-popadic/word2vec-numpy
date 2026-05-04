@@ -42,6 +42,10 @@ Trained embeddings will be saved as NumPy `.npy` files (see `word2vec_input_embe
 - Gradient derivations and backpropagation follow: Xin Rong, "word2vec Parameter Learning Explained" (2014).
 - This repository emphasizes clarity and faithful translation of the math into NumPy operations rather than production-level performance.
 
+## Paper attribution
+
+This repository includes an annotated copy of the paper "word2vec Parameter Learning Explained" for personal study. I went through the math in detail, checked dimensions, and added notes to verify my understanding. The paper itself is not my work; all rights belong to the original author and publisher. The original paper is available at: https://arxiv.org/abs/1411.2738
+
 ## License
 
 Use and modify freely for educational and research purposes. No warranty provided.
